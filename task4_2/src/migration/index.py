@@ -1,8 +1,8 @@
 from elasticsearch import Elasticsearch
 from fastapi import APIRouter
 
-URL = "https://922c039b12124d658b96c3aab4e310dd.us-central1.gcp.cloud.es.io:443"
-API_KEY = "czZPM2laTUJ1TzdCd1B5RU56YUI6Nng0VjdlMkhSYm1QUEp4VDFLOU1pdw=="
+URL = "your_url"
+API_KEY = "your_api_key"
 index = "index_1" # сюди завантажили дані з json-a і звідси виводимо
 saved_index = "index_2" # сюди зберігаємо виведені дані
 
